@@ -80,11 +80,11 @@ body {
 
 .additionally {
     display: flex;
-    padding: 70px;
-    width: 200px;
+    padding: 5px;
+    width: 600px;
     float: right;
     flex-direction: column;
-    font-size: 25px;
+    font-size: 75px;
     font-style: oblique;
     font-stretch: normal;
     font-weight: 400;
