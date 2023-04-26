@@ -1,0 +1,163 @@
+html,
+body {
+    font-size: 15x;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.content__looggo {
+    display: flex;
+    width: 5%;
+    height: 50px;
+    justify-content: flex-start;
+}
+
+.content__menu {
+    display: inline-flex;
+    width: 100%;
+    height: 75px;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: system-ui;
+    justify-content: space-evenly;
+    color: #2f00ff;
+}
+
+.headline {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    text-align: center;
+    width: 100%;
+}
+
+.headline__name {
+    display: flex;
+    flex-direction: column;
+    font-size: 70px;
+    font-style: initial;
+    font-stretch: condensed;
+    font-weight: 500;
+    font-family: fantasy;
+    color: #0d0085;
+    border: 4px dashed rgb(4, 65, 114);
+}
+
+.headline__name:hover {
+    background-color: #1cc4ca;
+}
+
+.headline__base {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 70%;
+    font-size: 35px;
+    font-style: initial;
+    font-stretch: condensed;
+    font-weight: 500;
+    font-family: system-ui;
+    color: #161750;
+}
+
+.img {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 70%;
+    float: left;
+}
+
+.additionally {
+    display: flex;
+    padding: 70px;
+    width: 200px;
+    float: right;
+    flex-direction: column;
+    font-size: 25px;
+    font-style: oblique;
+    font-stretch: normal;
+    font-weight: 400;
+    font-family: system-ui;
+    text-align: center;
+    color: #03270c;
+}
+
+.additionally:hover {
+    background-color: #cdffdc;
+}
+
+.additionally__pushbutton {
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    font-style: initial;
+    font-stretch: condensed;
+    font-weight: 200;
+    font-family: fantasy;
+    width: 25%;
+}
+
+@media (max-width:1200px) {
+
+    .content {
+        display: inline-flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 100%;
+        flex: 1 0 auto;
+        align-items: center;
+    }
+
+    .content__looggo {
+        display: inline-flex;
+        width: 15%;
+        height: auto;
+        background-color: rgb(247, 245, 172);
+    }
+
+    .content__menu {
+        flex-wrap: nowrap;
+        width: 100%;
+        text-align: center;
+        background-color: rgb(201, 255, 213);
+
+    }
+
+    .additionally__pushbutton {
+        display: flex;
+        flex-direction: column;
+        font-size: 25px;
+        font-style: initial;
+        font-stretch: condensed;
+        font-weight: 200;
+        font-family: fantasy;
+        width: 25%;
+    }
+
+    .img {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        height: 70%;
+        float: center;
+    }
+}
+
+.fottt {
+    display: flex;
+    background-color: #8bffc5;
+    width: 100%;
+    flex-direction: row;
+    flex: 0 0 auto;
+}
